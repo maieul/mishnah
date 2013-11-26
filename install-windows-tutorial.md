@@ -26,7 +26,7 @@ Click right on "my computer", choose "Properties", then "Advanced", "Environment
 Go to https://maven.apache.org/download.cgi. Download the binaries in the .zip format. Unzip the downloaded file. 
 
 In the search field of the start menu, wrote `cmd.exe`. A windows is opening.
-In this window, type: `setx PATH "%PATH%;`. Then drop the `bin` folder from mvn main folder to the command line window (the path of the folder will be automatically add to command line). Type: `""`. 
+In this window, type: `setx PATH "%PATH%;`. Then drop the `bin` folder from mvn main folder to the command line window (the path of the folder will be automatically add to command line). Type: `"`. 
 
 You should obtain some thing like this :
 `setx PATH "%PATH%;C:\Something\bin"`
